@@ -1,4 +1,4 @@
-package com.example.producer.model;
+package com.example.kafkaproducer.model;
 
 import java.time.Instant;
 

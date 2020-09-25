@@ -1,9 +1,9 @@
-package com.example.producer.messaging;
+package com.example.kafkaproducer.messaging;
 
 import org.springframework.kafka.support.SendResult;
 import org.springframework.util.concurrent.ListenableFuture;
 
-import com.example.producer.model.Message;
+import com.example.kafkaproducer.model.Message;
 
 public interface MessageProducer {
 

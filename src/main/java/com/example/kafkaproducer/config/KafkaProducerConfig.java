@@ -1,4 +1,4 @@
-package com.example.producer.config;
+package com.example.kafkaproducer.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 
-import com.example.producer.messaging.kafka.KafkaMessageProducer;
-import com.example.producer.model.Message;
+import com.example.kafkaproducer.messaging.kafka.KafkaMessageProducer;
+import com.example.kafkaproducer.model.Message;
 
 
 @Configuration

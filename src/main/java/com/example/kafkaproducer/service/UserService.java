@@ -1,12 +1,12 @@
-package com.example.producer.service;
+package com.example.kafkaproducer.service;
 
 import java.time.Instant;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.producer.messaging.MessageProducer;
-import com.example.producer.model.User;
+import com.example.kafkaproducer.messaging.MessageProducer;
+import com.example.kafkaproducer.model.User;
 
 @Service
 public class UserService {

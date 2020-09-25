@@ -1,4 +1,4 @@
-package com.example.producer.messaging.kafka;
+package com.example.kafkaproducer.messaging.kafka;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -6,8 +6,8 @@ import org.springframework.kafka.support.SendResult;
 import org.springframework.stereotype.Component;
 import org.springframework.util.concurrent.ListenableFuture;
 
-import com.example.producer.messaging.MessageProducer;
-import com.example.producer.model.Message;
+import com.example.kafkaproducer.messaging.MessageProducer;
+import com.example.kafkaproducer.model.Message;
 
 @Component
 public class KafkaMessageProducer implements MessageProducer{
