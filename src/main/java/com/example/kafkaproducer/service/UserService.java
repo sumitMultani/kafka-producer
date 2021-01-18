@@ -16,6 +16,7 @@ public class UserService {
 	
 	private static final String TOPIC = "MyTopic";
 
+// send users
 	public User sendUser(User user) {
 		user.setTimeCreate(Instant.now());
 		messageProducer.send(TOPIC, user);
