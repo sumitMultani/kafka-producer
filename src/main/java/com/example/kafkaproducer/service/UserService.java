@@ -14,6 +14,7 @@ public class UserService {
 	@Autowired
 	private MessageProducer messageProducer;
 	
+	// static field
 	private static final String TOPIC = "MyTopic";
 
 	public User sendUser(User user) {
